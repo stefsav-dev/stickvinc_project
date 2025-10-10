@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, Settings, FileText, Folder, ChevronDown, ChevronLeft, ChevronRight } from "lucide-react"
+import { Menu, Settings, FileText, Folder, ChevronDown, ChevronLeft, ChevronRight, PersonStanding } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -27,6 +27,7 @@ export default function SidebarAdmin() {
     { name: "Dashboard", href: "/admin", icon: <FileText className="h-4 w-4" /> },
     { name: "Projects", href: "/admin/projects", icon: <Folder className="h-4 w-4" /> },
     { name: "Settings", href: "/admin/settings", icon: <Settings className="h-4 w-4" /> },
+    { name: "Data Mahasiswa", href: "/admin/data_mahasiswa", icon: <PersonStanding className="h-4 w-4"/>}
   ]
 
   return (
