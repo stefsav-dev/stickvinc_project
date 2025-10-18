@@ -1,0 +1,5 @@
+{
+  "/(account)/admin/data_mahasiswa/page": "app/(account)/admin/data_mahasiswa/page.js",
+  "/(account)/admin/page": "app/(account)/admin/page.js",
+  "/page": "app/page.js"
+}
